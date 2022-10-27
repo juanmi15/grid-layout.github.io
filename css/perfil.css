@@ -1,0 +1,56 @@
+
+
+main{
+    max-width: 100%;
+  
+}
+
+main .profile{
+    background-color: rgb(236, 240, 235);
+    width: 100%;
+
+}
+
+.profile-container{
+    display: flex;
+    column-gap: 7rem;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.profile-img{
+    max-width: 30rem;
+}
+
+.profile-info{
+    max-width: 60rem;
+}
+
+.profile-info h2{
+    margin-bottom: 2rem;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    margin-top: 2rem;
+}
+
+.projects hr{
+    width: 100%;
+    color:rgb(236, 240, 235);
+    margin: 2rem 0 2rem 0;
+}
+
+.projects-items-grid{
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 3rem;
+    margin-bottom: 5rem;
+}
+
