@@ -67,6 +67,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 9rem;
+    width: 100%;
 }
 
 nav .nav-logo-container {
@@ -112,7 +113,7 @@ main .hero-container p{
     font-weight: 700;
 }
 
-main .hero-container button{
+main .hero-container a{
     width: 150px;
     height: 50px;
     display: flex;
@@ -128,7 +129,7 @@ main .hero-container button{
 }
 
 
-main .hero-container button:hover{
+main .hero-container a:hover{
     cursor: pointer;
     background-color: #a2ffe8;
     transition: 0.5s;
@@ -197,9 +198,9 @@ main .hero-container button:hover{
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 7rem 1rem;
-    height: 1050px;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem 1rem;
+    margin-bottom: 5rem;
 }
 
 .post-container img{
@@ -227,3 +228,4 @@ footer p{
     text-align: center;
     color: white;
 }
+
